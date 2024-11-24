@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign-Up Form</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+	<script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+    </head>
+    <body>
+        <h1>Sign Up</h1>
+        <form action="submit_signup_form.php" method="post" id="newSignUp">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email">
+		<span id="emailError" style="color: red; font-size: 14px;"></span>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+		<span id="passwordError" style="color: red; font-size: 14px;"></span>
+            </div>
+            <div>
+                <label for="password_confirmation">Confirm Password:</label>
+                <input type="password" id="password_confirmation" name="password_confirmation">
+            </div>
+           
+            <button>Sign Up</button>
+        </form>
+	<script src="./js/validate.js"></script>
+    </body>
+</html>
