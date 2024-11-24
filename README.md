@@ -1,7 +1,6 @@
 # PHP and MySQL Sign Up and Login Form
-###Sign Up (and Login) Form with client side validation using PHP, MySQL, HTML, CSS, and JavaScript
 
-### Sign-Up and Login Form with Client-Side Validation  
+### Sign-Up and Login Form with Client-Side Validation using PHP, MySQL, HTML, CSS, and JavaScript
 **Technologies Used:**  
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** PHP  
